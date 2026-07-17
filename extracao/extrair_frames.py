@@ -6,7 +6,7 @@ VIDEO_NAME = "test.mov"
 HAND_SIGNAL = "dragon"
 
 video_path = os.path.join("videos", AUTHOR, VIDEO_NAME)
-output_path = os.path.join("dataset", HAND_SIGNAL)
+output_path = os.path.join("../dataset", HAND_SIGNAL)
 
 os.makedirs(output_path, exist_ok=True)
 

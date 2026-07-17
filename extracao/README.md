@@ -6,7 +6,8 @@ Para inicializar com pyenv, rode os seguintes comandos dentro do diretório prin
 
 ```bash
 pyenv install 3.14.6
-python -m venv .venv  
+python -m venv .venv
+source .venv/bin/activate
 ```
 
 ## Pacotes
@@ -31,7 +32,7 @@ Com isso, só resta alterar os valores das constantes `AUTHOR`, `VIDEO_NAME` e `
 
 1. `AUTHOR` -> nome da subpasta escolhida dentro de videos, ex: `'eu'`.
 2. `VIDEO_NAME` -> nome do arquivo de vídeo, ex: `'sinal.mp4'`.
-3. `HAND_SIGNAL` -> nome do sinal de mão (em inglês) presente no vídeo conforme as subpastas de `dataset/`, ex: `'horse'`.
+3. `HAND_SIGNAL` -> nome do sinal de mão (em inglês) presente no vídeo conforme as subpastas de `../dataset/`, ex: `'horse'`.
 
 Finalmente, você pode rodar o script:
 
@@ -39,6 +40,6 @@ Finalmente, você pode rodar o script:
 python extrair_frames.py
 ```
 
-As fotos resultantes serão adicionadas em `dataset/[HAND_SIGNAL]/` com o nome: `autor-sinal-contador.jpg`.
+As fotos resultantes serão adicionadas em `../dataset/[HAND_SIGNAL]/` com o nome: `autor-sinal-contador.jpg`.
 
 > ⚠️ É recomendado que você analise cada uma das fotos geradas para evitar alimentar o modelo com imagens borradas ou algo do gênero.

@@ -1,6 +1,9 @@
 extracao/videos/*
-!extracao/videos/.gitkeep
+dataset/*/*.jpg
 
 .mp4
 .mov
 .jpg
+.venv
+
+!.gitkeep
