@@ -1,12 +1,19 @@
 import cv2
 import os
+import secrets
+import string
 
 AUTHOR = "luiz"
 VIDEO_NAME = "test.mov"
 HAND_SIGNAL = "dragon"
 
+def generate_video_id(length: int = 6) -> str:
+    chars = string.ascii_letters + string.digits
+    return ''.join(secrets.choice(chars) for _ in range(length))
+
 video_path = os.path.join("videos", AUTHOR, VIDEO_NAME)
-output_path = os.path.join("../dataset", HAND_SIGNAL)
+video_id = generate_video_id()
+output_path = os.path.join("../dataset", HAND_SIGNAL, video_id)
 
 os.makedirs(output_path, exist_ok=True)
 

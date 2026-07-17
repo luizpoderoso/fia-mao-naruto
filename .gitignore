@@ -1,5 +1,5 @@
 extracao/videos/*
-dataset/*/*.jpg
+dataset/*/*/*
 
 .mp4
 .mov
