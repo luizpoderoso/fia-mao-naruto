@@ -1,0 +1,6 @@
+extracao/videos/*
+!extracao/videos/.gitkeep
+
+.mp4
+.mov
+.jpg
