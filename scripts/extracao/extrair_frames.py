@@ -13,7 +13,7 @@ def generate_video_id(length: int = 6) -> str:
 
 video_path = os.path.join("videos", AUTHOR, VIDEO_NAME)
 video_id = generate_video_id()
-output_path = os.path.join("../dataset", HAND_SIGNAL, video_id)
+output_path = os.path.join("dataset", HAND_SIGNAL, video_id)
 
 os.makedirs(output_path, exist_ok=True)
 
