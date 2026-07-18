@@ -6,13 +6,12 @@ DATASET_PATH = os.path.join("../../dataset")
 SIGNALS = ["bird", "boar", "dog", "dragon", "hare", "horse", "monkey", "ox", "ram", "rat", "snake", "tiger"]
 IMG_DIFFERENCE_LIMIT = 5
 
+resolutions_count = dict()
 total_count = 0
 png_count = 0
 jpg_count = 0
 duplicates_count = 0
 simmilar_count = 0
-
-resolutions_count = dict()
 
 for signal in os.listdir(DATASET_PATH):
     signal_path = os.path.join(DATASET_PATH, signal)
