@@ -1,5 +1,6 @@
 */extracao/videos/*
 dataset/
+final_dataset/
 dataset.*
 .venv
 !.gitkeep
