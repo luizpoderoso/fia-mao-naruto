@@ -5,5 +5,6 @@ dataset.*
 .venv/
 *.task
 __MACOSX
+*.part
 
 !.gitkeep
