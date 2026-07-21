@@ -17,7 +17,7 @@ output_path = os.path.join("dataset", HAND_SIGNAL, video_id)
 
 os.makedirs(output_path, exist_ok=True)
 
-SCREENSHOT_INTERVAL = 60
+SCREENSHOT_INTERVAL = 30
 
 video = cv2.VideoCapture(video_path)
 
@@ -41,7 +41,7 @@ while True:
         break
 
     if frame_counter % SCREENSHOT_INTERVAL == 0:
-        file_name = f"{AUTHOR}-{HAND_SIGNAL}-{screenshot_counter}.jpg"
+        file_name = f"{AUTHOR}-{video_id}-{HAND_SIGNAL}-{screenshot_counter}.jpg"
         file_path = os.path.join(output_path, file_name)
 
         cv2.imwrite(file_path, frame)
