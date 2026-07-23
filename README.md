@@ -82,7 +82,7 @@ Além das tarefas específicas, todos os membros da equipe (e amigos) participar
 
 ## 10. Link do Vídeo
 
-Vídeo disponivél em: video-pogg.com.br
+Vídeo disponível em: [https://youtu.be/bipgyNisM6A](https://youtu.be/bipgyNisM6A).
 
 ## 11. Declaração de Uso de Ferramentas de Inteligência Artificial
 
