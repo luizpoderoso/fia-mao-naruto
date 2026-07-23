@@ -91,3 +91,5 @@ Ferramenta utilizada: _Google Gemini_
 #### Finalidades
 
 - Auxílio na formatação e correção ortografica deste arquivo `README.md` e das análises presentes no notebook.
+
+- Auxílio no uso do _MediaPipe Tasks_.
